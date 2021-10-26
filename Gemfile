@@ -9,6 +9,9 @@ gem 'rails', '~> 5.2.6'
 gem 'bootstrap-sass'
 #Add hashing gem
 gem 'bcrypt'
+gem 'faker'
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
 # Use sqlite3 as the database for Active Record
 gem 'pg'
 # Use Puma as the app server
