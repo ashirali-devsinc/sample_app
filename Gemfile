@@ -10,6 +10,9 @@ gem 'bootstrap-sass'
 #Add hashing gem
 gem 'bcrypt'
 gem 'faker'
+gem 'carrierwave'
+gem 'mini_magick'
+gem 'fog', '1.38.0'
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
 # Use sqlite3 as the database for Active Record
