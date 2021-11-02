@@ -1,0 +1,13 @@
+<% unless current_user?(@user) %>
+  <div id="follow_form">
+    <% if current_user.sended?(@user) %>
+      <%= render 'unfollow' %>
+    <% elsif current_user.friend?(@user)%>
+      <%= render 'unfriend' %>
+    <% elsif current_user.recieved?(@user) %>
+      <%= render 'acceptreq' %>
+    <% else %>
+      <%= render 'follow' %>
+    <% end %>
+  </div>
+<% end %>
